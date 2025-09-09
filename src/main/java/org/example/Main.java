@@ -22,6 +22,21 @@ public class Main {
             Scanner leerTeclado=new Scanner(System.in);
             System.out.println("Seleccione una opcion por favor: 😉");
             opcionSeleccionada=leerTeclado.nextInt();
+
+            //Evaluando caminos según la opcion del usuario
+            if (opcionSeleccionada==1){
+                System.out.println("Sumando");
+            } else if (opcionSeleccionada==2) {
+                System.out.println("Restando");
+            } else if (opcionSeleccionada==3) {
+                System.out.println("Multiplicando");
+            } else if (opcionSeleccionada==4) {
+                System.out.println("Dividiendo");
+            } else if (opcionSeleccionada==5) {
+                System.out.println("Saliste del programa");
+            }else{
+                System.out.println("Opcion Invalida");
+            }
         }
 
         }
